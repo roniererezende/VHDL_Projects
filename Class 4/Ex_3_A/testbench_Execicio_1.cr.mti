@@ -1,0 +1,19 @@
+{E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 4/Ex_3_A/exercicio3_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 4/Ex_3_A/exercicio3_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity exercicio3_tb
+-- Compiling architecture behavioral of exercicio3_tb
+
+} {} {}} {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 4/Ex_3_A/Exercicio_1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 4/Ex_3_A/Exercicio_1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Exercicio_1
+-- Compiling architecture behavioral of Exercicio_1
+
+} {} {}}

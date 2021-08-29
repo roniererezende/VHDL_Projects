@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_B
+Eor_with_select
+Z0 w1627439273
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+Z4 dE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_C
+Z5 8E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_C/or_with_select_tb.vhd
+Z6 FE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_C/or_with_select_tb.vhd
+l0
+L6 1
+Vo<TYWc207XK:<bToDMC@32
+!s100 :]GjJ4d<iT7HW2GD8Vc3e3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1627439377
+!i10b 1
+Z9 !s108 1627439376.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_C/or_with_select_tb.vhd|
+Z11 !s107 E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_C/or_with_select_tb.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 14 or_with_select 0 22 o<TYWc207XK:<bToDMC@32
+!i122 4
+l18
+L15 33
+VOWYa>SZ]KF0j2zefcDaCH1
+!s100 Ci`[0ZdzdMNe84hHY:UAo2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etestbench_or_with_select
+Z14 w1627439990
+!i122 7
+R4
+R5
+R6
+l0
+L1 1
+VjzeiXcC`nLW;PLW61Y09A2
+!s100 WbSb4AF<CLP[7IIkQ7[MQ3
+R7
+32
+Z15 !s110 1627439992
+!i10b 1
+Z16 !s108 1627439992.000000
+R10
+R11
+!i113 1
+R12
+R13
+Aor_with_select_tb
+DEx4 work 24 testbench_or_with_select 0 22 jzeiXcC`nLW;PLW61Y09A2
+R2
+R3
+!i122 7
+l23
+L7 40
+VW7dML0=FP6><eD9?cX07m0
+!s100 h]iW9Zc9^BBh8FM_[MF;A0
+R7
+32
+R15
+!i10b 1
+R16
+R10
+R11
+!i113 1
+R12
+R13

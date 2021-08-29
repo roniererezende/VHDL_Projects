@@ -1,0 +1,58 @@
+# Compile of Exercicio_3.vhd was successful.
+# Compile of Exercicio_5_tb.vhd failed with 2 errors.
+# Compile of Exercicio_3.vhd was successful.
+# Compile of Exercicio_5_tb.vhd was successful.
+vsim -gui work.exercicio_5_tb
+# vsim -gui work.exercicio_5_tb 
+# Start time: 00:02:03 on Aug 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.exercicio_5_tb(behavioral)
+# Loading work.exercicio_3(behavioral)
+add wave -position insertpoint sim:/exercicio_5_tb/*
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /exercicio_5_tb/ram_u
+quit -sim
+# End time: 00:20:50 on Aug 29,2021, Elapsed time: 0:18:47
+# Errors: 0, Warnings: 13
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Testbench_Exercicio_5_B
+# Compile of Exercicio_3.vhd was successful.
+# Compile of Exercicio_5_tb.vhd was successful.
+vsim -gui work.exercicio_5_tb
+# vsim -gui work.exercicio_5_tb 
+# Start time: 00:30:41 on Aug 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.exercicio_5_tb(behavioral)
+# Loading work.exercicio_3(behavioral)
+add wave -position insertpoint sim:/exercicio_5_tb/*
+run
+quit -sim
+# End time: 00:33:33 on Aug 29,2021, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 6
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project test_bench_exercicio_5
+# Compile of exercicio_3.vhd was successful.
+# Compile of exercicio_5_tb.vhd failed with 1 errors.
+# Compile of exercicio_5_tb.vhd was successful.
+vsim -gui work.execicio_5_tb
+# vsim -gui work.execicio_5_tb 
+# Start time: 00:45:12 on Aug 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.execicio_5_tb(behavioral)
+# ** Warning: (vsim-3473) Component instance "dut : exercicio_3" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /execicio_5_tb File: E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C/exercicio_5_tb.vhd
+add wave -position insertpoint sim:/execicio_5_tb/*
+run
+# End time: 00:45:52 on Aug 29,2021, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 8

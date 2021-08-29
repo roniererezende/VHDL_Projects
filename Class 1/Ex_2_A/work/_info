@@ -1,0 +1,91 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_B
+Edecod_3x8_logic_gate
+Z0 w1627523790
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+Z3 dE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_2_A
+Z4 8E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_2_A/decod_3x8_logic_gate.vhd
+Z5 FE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_2_A/decod_3x8_logic_gate.vhd
+l0
+L4 1
+Vj<T6m`db3M`@D8;ggH4Y22
+!s100 7OloGYG79Di:_7^fWob3[0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1627523888
+!i10b 1
+Z8 !s108 1627523888.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_2_A/decod_3x8_logic_gate.vhd|
+Z10 !s107 E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_2_A/decod_3x8_logic_gate.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+DEx4 work 20 decod_3x8_logic_gate 0 22 j<T6m`db3M`@D8;ggH4Y22
+!i122 3
+l20
+L18 13
+VZXBE4I<fa2kVz?;B8IGeJ1
+!s100 I68nPbTd;nzPiTmjS>D<T2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench_decod_3x8
+Z13 w1627523952
+!i122 5
+R3
+Z14 8E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_2_A/decod_3x8_tb.vhd
+Z15 FE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_2_A/decod_3x8_tb.vhd
+l0
+L1 1
+VhO?NZYldMA:dQlK4JFf_n2
+!s100 1oUklCe1iSZMQQ6?g56n]1
+R6
+32
+Z16 !s110 1627523954
+!i10b 1
+Z17 !s108 1627523954.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_2_A/decod_3x8_tb.vhd|
+!s107 E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_2_A/decod_3x8_tb.vhd|
+!i113 1
+R11
+R12
+Adecod_3x8_tb
+DEx4 work 19 testbench_decod_3x8 0 22 hO?NZYldMA:dQlK4JFf_n2
+R1
+R2
+!i122 5
+l23
+L7 40
+VBolzWGInGkm04m;=kVFF]2
+!s100 h1e]AmEM@=G8TXoDBP?^N2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+Z19 !s107 E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_2_A/decod_3x8_tb.vhd|
+!i113 1
+R11
+R12

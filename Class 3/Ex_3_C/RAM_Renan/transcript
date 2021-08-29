@@ -1,0 +1,30 @@
+# Compile of RAM_Shared_Addr_And_Data_tb.vhd was successful.
+vsim -gui work.ram_shared_addr_and_data_tb
+# vsim -gui work.ram_shared_addr_and_data_tb 
+# Start time: 22:33:56 on Aug 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_shared_addr_and_data_tb(behavioral)
+# Loading work.ram_shared_addr_and_data(behavioral)
+add wave -position insertpoint sim:/ram_shared_addr_and_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 0  Instance: /ram_shared_addr_and_data_tb/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ns  Iteration: 0  Instance: /ram_shared_addr_and_data_tb/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /ram_shared_addr_and_data_tb/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /ram_shared_addr_and_data_tb/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 0  Instance: /ram_shared_addr_and_data_tb/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /ram_shared_addr_and_data_tb/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 0  Instance: /ram_shared_addr_and_data_tb/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 0  Instance: /ram_shared_addr_and_data_tb/dut
+# End time: 00:06:44 on Aug 19,2021, Elapsed time: 1:32:48
+# Errors: 0, Warnings: 11

@@ -1,0 +1,52 @@
+# Compile of Exercicio_1.vhd was successful.
+# Compile of exercicio3_tb.vhd failed with 1 errors.
+# Compile of exercicio3_tb.vhd failed with 4 errors.
+# Compile of exercicio3_tb.vhd failed with 1 errors.
+# Compile of exercicio3_tb.vhd was successful.
+vsim -gui work.exercicio3_tb
+# vsim -gui work.exercicio3_tb 
+# Start time: 22:53:00 on Aug 25,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.exercicio3_tb(behavioral)
+# Loading work.exercicio_1(behavioral)
+add wave -position insertpoint sim:/exercicio3_tb/*
+run
+quit -sim
+# End time: 22:55:05 on Aug 25,2021, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 10
+# Compile of exercicio3_tb.vhd was successful.
+vsim -gui work.exercicio3_tb
+# vsim -gui work.exercicio3_tb 
+# Start time: 22:56:02 on Aug 25,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.exercicio3_tb(behavioral)
+# Loading work.exercicio_1(behavioral)
+add wave -position insertpoint sim:/exercicio3_tb/*
+run
+quit -sim
+# End time: 23:00:45 on Aug 25,2021, Elapsed time: 0:04:43
+# Errors: 0, Warnings: 2
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project testbench_Exercicio3
+# Compile of Exercicio_1.vhd was successful.
+# Compile of Exercicio3_tb.vhd was successful.
+vsim -gui work.exercicio3_tb
+# vsim -gui work.exercicio3_tb 
+# Start time: 23:19:15 on Aug 25,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.exercicio3_tb(behavioral)
+# Loading work.exercicio_1(behavioral)
+add wave -position insertpoint sim:/exercicio3_tb/*
+run
+quit -sim
+# End time: 23:20:16 on Aug 25,2021, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 7

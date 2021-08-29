@@ -1,0 +1,153 @@
+# Compile of ex_2.vhd was successful.
+# Break key hit
+# Compile of ex_2_tb.vhd failed with 7 errors.
+# Compile of ex_2_tb.vhd failed with 6 errors.
+# Compile of ex_2_tb.vhd failed with 4 errors.
+# Compile of ex_2_tb.vhd failed with 3 errors.
+# Compile of ex_2_tb.vhd failed with 1 errors.
+# Compile of ex_2_tb.vhd was successful.
+vsim -gui work.testbench_ex_2
+# vsim -gui work.testbench_ex_2 
+# Start time: 23:12:15 on Aug 12,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench_ex_2(ex_2_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.ex_2(behavioral)
+# ** Warning: (vsim-8713) Suspect default binding for component instance 'testbench_ex_2'.
+# Entity has no generics at all; the component has generic:
+#           len
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_ex_2/testbench_ex_2 File: E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2_tb.vhd Line: 27
+add wave -position insertpoint sim:/testbench_ex_2/*
+run
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 7 downto 0.
+#    Time: 0 ps  Iteration: 0  Process: /testbench_ex_2/testbench_ex_2/line__43 File: E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd
+# Fatal error in Architecture behavioral at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd line 43
+# 
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd 43 Architecture behavioral
+# 
+quit -sim
+# End time: 23:13:49 on Aug 12,2021, Elapsed time: 0:01:34
+# Errors: 1, Warnings: 15
+# Compile of ex_2.vhd failed with 1 errors.
+# Compile of ex_2.vhd was successful.
+# Compile of ex_2_tb.vhd failed with 1 errors.
+# Compile of ex_2_tb.vhd failed with 1 errors.
+# Compile of ex_2.vhd was successful.
+# Compile of ex_2_tb.vhd failed with 1 errors.
+# Compile of ex_2_tb.vhd was successful.
+vsim -gui work.testbench_ex_2
+# vsim -gui work.testbench_ex_2 
+# Start time: 23:28:20 on Aug 12,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench_ex_2(ex_2_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.ex_2(behavioral)
+add wave -position insertpoint sim:/testbench_ex_2/*
+run
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 7 downto 0.
+#    Time: 0 ps  Iteration: 0  Process: /testbench_ex_2/testbench_ex_2/line__43 File: E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd
+# Fatal error in Architecture behavioral at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd line 43
+# 
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd 43 Architecture behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd 43 Architecture behavioral
+# 
+run -continue
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd 43 Architecture behavioral
+# 
+run -continue
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd 43 Architecture behavioral
+# 
+quit -sim
+# End time: 23:34:36 on Aug 12,2021, Elapsed time: 0:06:16
+# Errors: 1, Warnings: 8
+# Compile of ex_2_tb.vhd was successful.
+vsim -gui work.testbench_ex_2
+# vsim -gui work.testbench_ex_2 
+# Start time: 23:35:34 on Aug 12,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench_ex_2(ex_2_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.ex_2(behavioral)
+add wave -position insertpoint sim:/testbench_ex_2/*
+run
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 7 downto 0.
+#    Time: 0 ps  Iteration: 0  Process: /testbench_ex_2/testbench_ex_2/line__43 File: E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd
+# Fatal error in Architecture behavioral at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd line 43
+# 
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd 43 Architecture behavioral
+# 
+quit -sim
+# End time: 23:39:24 on Aug 12,2021, Elapsed time: 0:03:50
+# Errors: 1, Warnings: 2
+# Compile of ex_2_tb.vhd was successful.
+vsim -gui work.testbench_ex_2
+# vsim -gui work.testbench_ex_2 
+# Start time: 23:40:29 on Aug 12,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench_ex_2(ex_2_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.ex_2(behavioral)
+add wave -position insertpoint sim:/testbench_ex_2/*
+run
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 7 downto 0.
+#    Time: 0 ps  Iteration: 0  Process: /testbench_ex_2/testbench_ex_2/line__43 File: E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd
+# Fatal error in Architecture behavioral at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd line 43
+# 
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd 43 Architecture behavioral
+# 
+quit -sim
+# End time: 23:49:26 on Aug 12,2021, Elapsed time: 0:08:57
+# Errors: 1, Warnings: 2
+# Compile of ex_2_tb.vhd failed with 31 errors.
+# Compile of ex_2_tb.vhd was successful.
+vsim -gui work.testbench_ex_2
+# vsim -gui work.testbench_ex_2 
+# Start time: 23:52:22 on Aug 12,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench_ex_2(ex_2_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.ex_2(behavioral)
+add wave -position insertpoint sim:/testbench_ex_2/*
+run
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 7 downto 0.
+#    Time: 0 ps  Iteration: 0  Process: /testbench_ex_2/testbench_ex_2/line__43 File: E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd
+# Fatal error in Architecture behavioral at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd line 43
+# 
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd 43 Architecture behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd 43 Architecture behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_2/ex_2.vhd 43 Architecture behavioral
+# 
+quit -sim
+# End time: 00:07:07 on Aug 13,2021, Elapsed time: 0:14:45
+# Errors: 1, Warnings: 3

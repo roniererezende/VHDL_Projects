@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "output_port[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[1]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sel_in",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

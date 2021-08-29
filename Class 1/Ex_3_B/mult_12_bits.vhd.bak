@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_unsigned.all;
+use IEEE.numeric_std.all;
+
+
+entity mult_12_bits is port
+(
+	clk_in             : in std_logic;
+	
+	input_port_1, input_port_2 : in signed (11 downto 0);
+		
+	output_port  				   : out signed(23 downto 0)
+);
+end mult_4_bits;
+
+architecture behavioral of mult_12_bits is
+
+begin
+
+	process (clk_in)
+	
+		output_port <= input_port_1 * input_port_2;
+		
+end behavioral;

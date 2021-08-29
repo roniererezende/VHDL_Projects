@@ -1,0 +1,79 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+--declaramos a entidade
+entity exercicio4_tb is
+end exercicio4_tb;
+
+--a arquitetura
+architecture behavioral of exercicio4_tb is
+
+	component Exemplo_3
+		port(
+			shift_register_in  : in std_logic;
+			parallel_data 	   : in std_logic_vector(1023 downto 0);
+			clk                : in std_logic := '0';
+			rst                : in std_logic := '0';
+			en                 : in std_logic := '0';
+			direction          : in std_logic;
+			force_0            : in std_logic;
+			force_1            : in std_logic;
+			parallel_load      : in std_logic;
+		
+			shift_register_out : out std_logic
+	);
+	end component;
+
+	constant clk_period : time := 20 ns;
+	
+	signal shift_register_in  : std_logic;
+	signal parallel_data 	  : std_logic_vector(1023 downto 0);
+	signal clk                : std_logic;
+	signal rst                : std_logic;
+	signal en                 : std_logic;
+	signal direction          : std_logic;
+	signal force_0            : std_logic;
+	signal force_1            : std_logic;
+	signal parallel_load      : std_logic;
+		
+	signal shift_register_out : std_logic;
+	
+begin
+	clk <= not clk after clk_period/2;
+	rst <= '0', '1' after 10 ns;
+	
+	stimulus : process
+	begin
+		shift_register_in <= '0';
+		en <= '1';
+		direction <= '0';
+		force_0 <= '0';
+		force_1 <= '0';
+		wait until rising_edge (clk);
+
+		wait;
+--		input_port <= '1';
+--		wait for  20 ns; input_port <= '0';
+--		wait for 120 ns; input_port <= '0';
+--                wait for  30 ns; input_port <= '1';
+--		wait for  20 ns; input_port <= '0';
+--		wait for  20 ns; input_port <= '0';
+--		wait for  20 ns; input_port <= '1';
+--		wait;
+	end process stimulus;  
+	
+	testbench_Exercicio_4 : exercicio_3 
+		port map (
+			shift_register_in  => shift_register_in,
+			parallel_data      => parallel_data, 
+			clk                => clk, 
+			rst                => rst,
+			en                 => en,
+			direction          => direction,
+			force_0            => force_0,
+			force_1            => force_1,
+			parallel_load      => parallel_load,
+			shift_register_out => shift_register_out 	
+		);
+end behavioral;	

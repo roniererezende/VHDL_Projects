@@ -1,0 +1,26 @@
+# Compile of fifo_tb.vhd failed with 10 errors.
+# Compile of fifo.vhd failed with 2 errors.
+# Compile of fifo.vhd failed with 2 errors.
+# Compile of fifo.vhd was successful.
+# Compile of fifo.vhd was successful.
+# Compile of fifo_tb.vhd failed with 3 errors.
+# Compile of fifo_tb.vhd failed with 3 errors.
+# Compile of fifo_tb.vhd failed with 3 errors.
+# Compile of fifo.vhd was successful.
+# Compile of fifo_tb.vhd failed with 3 errors.
+# Compile of fifo_tb.vhd failed with 2 errors.
+# Compile of fifo_tb.vhd was successful.
+vsim -gui work.fifo_tb
+# vsim -gui work.fifo_tb 
+# Start time: 21:35:42 on Aug 24,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fifo_tb(behavioral)
+# Loading work.fifo(behavioral)
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 22:22:16 on Aug 24,2021, Elapsed time: 0:46:34
+# Errors: 0, Warnings: 15

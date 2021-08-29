@@ -1,0 +1,440 @@
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 20:02:28 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+quit -sim
+# End time: 20:08:46 on Aug 16,2021, Elapsed time: 0:06:18
+# Errors: 0, Warnings: 1
+# Compile of RAM_One_In_Out_Data.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 20:09:23 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+quit -sim
+# End time: 20:09:42 on Aug 16,2021, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 2
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 20:10:07 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+quit -sim
+# End time: 20:16:03 on Aug 16,2021, Elapsed time: 0:05:56
+# Errors: 0, Warnings: 2
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 20:26:03 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 20:29:53 on Aug 16,2021, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 4
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 20:31:53 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 20:38:53 on Aug 16,2021, Elapsed time: 0:07:00
+# Errors: 0, Warnings: 5
+# Compile of RAM_One_In_Out_Data_tb.vhd failed with 1 errors.
+# Compile of RAM_One_In_Out_Data_tb.vhd failed with 1 errors.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 20:40:57 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 20:43:04 on Aug 16,2021, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 5
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 20:45:03 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 20:50:11 on Aug 16,2021, Elapsed time: 0:05:08
+# Errors: 0, Warnings: 3
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 20:50:45 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 20:57:40 on Aug 16,2021, Elapsed time: 0:06:55
+# Errors: 0, Warnings: 4
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 20:58:18 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 20:58:42 on Aug 16,2021, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 3
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 20:59:08 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 21:02:07 on Aug 16,2021, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 2
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 21:02:42 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+run
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+run
+quit -sim
+# End time: 21:06:36 on Aug 16,2021, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 5
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 21:07:50 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 21:10:06 on Aug 16,2021, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 3
+# Compile of RAM_One_In_Out_Data_tb.vhd failed with 4 errors.
+# Compile of RAM_One_In_Out_Data_tb.vhd failed with 4 errors.
+# Compile of RAM_One_In_Out_Data_tb.vhd failed with 2 errors.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 21:12:21 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 21:14:34 on Aug 16,2021, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 6
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 21:15:46 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 21:16:57 on Aug 16,2021, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 3
+# Compile of RAM_One_In_Out_Data_tb.vhd failed with 1 errors.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 21:26:52 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+quit -sim
+# End time: 21:27:32 on Aug 16,2021, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 3
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 21:29:54 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+quit -sim
+# End time: 21:35:36 on Aug 16,2021, Elapsed time: 0:05:42
+# Errors: 0, Warnings: 3
+# Compile of RAM_One_In_Out_Data.vhd failed with 2 errors.
+# Compile of RAM_One_In_Out_Data.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 21:36:57 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# Can't move the Now cursor.
+quit -sim
+# End time: 21:38:48 on Aug 16,2021, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 3
+# Compile of RAM_One_In_Out_Data.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 21:39:19 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+quit -sim
+# End time: 21:43:12 on Aug 16,2021, Elapsed time: 0:03:53
+# Errors: 0, Warnings: 2
+# Compile of RAM_One_In_Out_Data.vhd failed with 1 errors.
+# Compile of RAM_One_In_Out_Data.vhd failed with 1 errors.
+# Compile of RAM_One_In_Out_Data.vhd was successful.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 21:45:53 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+quit -sim
+# End time: 21:48:46 on Aug 16,2021, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 5
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 21:50:17 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+add list sim:/std_logic_1164/*
+# ** UI-Msg: (vish-4014) No objects found matching '/std_logic_1164/*'.
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/ram_u/*
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+add wave sim:/ram_one_in_out_data_tb/ram_u/line__69/*
+# (vish-4014) No objects found matching 'sim:/ram_one_in_out_data_tb/ram_u/line__69/*'.
+add watch sim:/ram_one_in_out_data_tb/ram_u/data_handle/*
+add watch sim:/ram_one_in_out_data_tb/ram_u/line__69/*
+quit -sim
+# End time: 22:07:40 on Aug 16,2021, Elapsed time: 0:17:23
+# Errors: 0, Warnings: 3
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 22:08:19 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+quit -sim
+# End time: 22:22:04 on Aug 16,2021, Elapsed time: 0:13:45
+# Errors: 0, Warnings: 2
+# Compile of RAM_One_In_Out_Data_tb.vhd failed with 1 errors.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 22:22:51 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+quit -sim
+# End time: 22:35:17 on Aug 16,2021, Elapsed time: 0:12:26
+# Errors: 0, Warnings: 4
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 22:36:11 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+quit -sim
+# End time: 22:36:31 on Aug 16,2021, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 2
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 22:36:48 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 1  Instance: /ram_one_in_out_data_tb/ram_u
+quit -sim
+# End time: 22:38:04 on Aug 16,2021, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 3
+# Compile of RAM_One_In_Out_Data.vhd was successful.
+# Compile of RAM_One_In_Out_Data_tb.vhd was successful.
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 22:40:46 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+run
+run
+quit -sim
+# End time: 22:42:26 on Aug 16,2021, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 3
+vsim -gui work.ram_one_in_out_data_tb
+# vsim -gui work.ram_one_in_out_data_tb 
+# Start time: 22:42:34 on Aug 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_one_in_out_data_tb(behavioral)
+# Loading work.ram_one_in_out_data(behavioral)
+add wave -position insertpoint sim:/ram_one_in_out_data_tb/*
+run
+quit -sim
+# End time: 23:40:54 on Aug 16,2021, Elapsed time: 0:58:20
+# Errors: 0, Warnings: 1

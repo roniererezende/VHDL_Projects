@@ -1,0 +1,16 @@
+# Compile of shift_register_while_loop.vhd was successful.
+# Compile of shift_register_while_loop_tb.vhd was successful.
+vsim -gui work.testbench_shift_register_while_loop
+# vsim -gui work.testbench_shift_register_while_loop 
+# Start time: 22:35:39 on Aug 10,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench_shift_register_while_loop(shift_register_while_loop_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.shift_register_while_loop(behavioral)
+add wave -position insertpoint sim:/testbench_shift_register_while_loop/*
+run
+quit -sim
+# End time: 00:40:49 on Aug 11,2021, Elapsed time: 2:05:10
+# Errors: 0, Warnings: 7

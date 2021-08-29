@@ -1,0 +1,201 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "output_port[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[1]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[3]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[4]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[5]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[6]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[7]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[8]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[9]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[10]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[11]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[12]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[13]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[14]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[15]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[16]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[17]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[18]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[19]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[20]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[21]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[22]",
+					"strict" : false
+				},
+				{
+					"name" : "output_port[23]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "input_port_2[11]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

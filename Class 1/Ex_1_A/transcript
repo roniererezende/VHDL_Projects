@@ -1,0 +1,35 @@
+vcom -work work -2002 -explicit {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_A/OR_WHEN_ELSE.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:24:19 on Jul 27,2021
+# vcom -reportprogress 300 -work work -2002 -explicit E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_A/OR_WHEN_ELSE.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OR_WHEN_ELSE
+# -- Compiling architecture behavioral of OR_WHEN_ELSE
+# End time: 22:24:19 on Jul 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -2002 -explicit {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_A/OR_WHEN_ELSE_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:24:20 on Jul 27,2021
+# vcom -reportprogress 300 -work work -2002 -explicit E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 1/Ex_1_A/OR_WHEN_ELSE_tb.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity testbench_or_when_else
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling architecture or_when_else_tb of testbench_or_when_else
+# End time: 22:24:20 on Jul 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui work.testbench_or_when_else
+# vsim -gui work.testbench_or_when_else 
+# Start time: 22:24:35 on Jul 27,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench_or_when_else(or_when_else_tb)
+# Loading ieee.numeric_std(body)
+# Loading work.or_when_else(behavioral)
+quit -sim
+# End time: 22:26:06 on Jul 27,2021, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 3

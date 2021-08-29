@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_B
+Eexecicio_3
+Z0 w1630208506
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z4 dE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C
+Z5 8E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C/exercicio_3.vhd
+Z6 FE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C/exercicio_3.vhd
+l0
+L7 1
+VDNYjA2Pjj8U9c]^LP;=Xb1
+!s100 N==]PGcKYJ9SBCjV^d6fU2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1630208510
+!i10b 1
+Z9 !s108 1630208510.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C/exercicio_3.vhd|
+Z11 !s107 E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C/exercicio_3.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 execicio_3 0 22 DNYjA2Pjj8U9c]^LP;=Xb1
+!i122 0
+l35
+L26 42
+V0DhQmG9c9]m7Td;OmQUSo3
+!s100 H]47ZVTm@E]o5o6ZWXQ3J2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eexecicio_5_tb
+Z14 w1630208603
+R1
+R2
+R3
+!i122 2
+R4
+Z15 8E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C/exercicio_5_tb.vhd
+Z16 FE:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C/exercicio_5_tb.vhd
+l0
+L5 1
+VP3;lIFn7?`FN]83kTP]k^3
+!s100 9iT6Tlcaj85cB@`[NR;@z2
+R7
+32
+Z17 !s110 1630208606
+!i10b 1
+Z18 !s108 1630208606.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C/exercicio_5_tb.vhd|
+!s107 E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C/exercicio_5_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 13 execicio_5_tb 0 22 P3;lIFn7?`FN]83kTP]k^3
+!i122 2
+l39
+L10 108
+VmaSCEP6dH]f3gH06gG]2=0
+!s100 5_fC`bS<jEM53Kj<az?V03
+R7
+32
+R17
+!i10b 1
+R18
+R19
+Z20 !s107 E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 4/Ex_5_C/exercicio_5_tb.vhd|
+!i113 1
+R12
+R13

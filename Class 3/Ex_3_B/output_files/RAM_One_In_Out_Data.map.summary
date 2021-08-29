@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Aug 15 22:25:25 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : RAM_One_In_Out_Data
+Top-level Entity Name : RAM_One_In_Out_Data
+Family : Cyclone IV E
+Total logic elements : 51
+    Total combinational functions : 27
+    Dedicated logic registers : 27
+Total registers : 27
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,18 @@
+{E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_1_B/shift_register_while_loop.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_1_B/shift_register_while_loop.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity shift_register_while_loop
+-- Compiling architecture behavioral of shift_register_while_loop
+
+} {} {}} {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_1_B/shift_register_while_loop_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Postgraduate Studies/Embedded Electronic/Class/4 - FPGA/Exercises - Roniere/Class 3/Ex_1_B/shift_register_while_loop_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity testbench_shift_register_while_loop
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling architecture shift_register_while_loop_tb of testbench_shift_register_while_loop
+
+} {} {}}

@@ -1,0 +1,49 @@
+# Compile of decod_3x8_when_else.vhd was successful.
+# Compile of decod_3x8_tb.vhd failed with 1 errors.
+# Compile of decod_3x8_tb.vhd was successful.
+vsim -gui work.testbench_decod_3x8
+# vsim -gui work.testbench_decod_3x8 
+# Start time: 00:11:57 on Jul 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench_decod_3x8(decod_3x8_tb)
+# Loading work.decod_3x8_when_else(behavior)
+add wave -position insertpoint sim:/testbench_decod_3x8/*
+run
+quit -sim
+# End time: 00:13:45 on Jul 29,2021, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 8
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project testbench_codec_3x8
+# Compile of decod_3x8_process_if.vhd was successful.
+# Compile of decod_3x8_tb.vhd was successful.
+vsim -gui work.testbench_decod_3x8
+# vsim -gui work.testbench_decod_3x8 
+# Start time: 00:16:40 on Jul 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench_decod_3x8(decod_3x8_tb)
+# Loading work.decod_3x8_process_if(behavior)
+add wave -position insertpoint sim:/testbench_decod_3x8/*
+run
+quit -sim
+# End time: 00:17:16 on Jul 29,2021, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 6
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project testbench_codec_3x8
+# Compile of decod_3x8_process_case.vhd was successful.
+# Compile of decod_3x8_tb.vhd was successful.
+vsim -gui work.testbench_decod_3x8
+# vsim -gui work.testbench_decod_3x8 
+# Start time: 00:20:52 on Jul 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench_decod_3x8(decod_3x8_tb)
+# Loading work.decod_3x8_process_case(behavior)
+add wave -position insertpoint sim:/testbench_decod_3x8/*
+run
+# End time: 00:21:57 on Jul 29,2021, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 6
