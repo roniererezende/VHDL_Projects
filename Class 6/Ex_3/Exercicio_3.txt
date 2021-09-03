@@ -1,0 +1,7 @@
+3 - Por que o contador usa 29 bits?
+
+- Resposta: Devido ao clock ser muito rápido, só é possível ver a 
+            contagem com os 4 bits mais significativos por se colocarmos os 
+            25 menos significativos teremos a impressão que os sempre ficaram 
+            ativos por a nossa visão consegue identificar a 
+            troca do estado lógico por é muito rápida. 

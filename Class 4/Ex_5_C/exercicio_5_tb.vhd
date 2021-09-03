@@ -2,12 +2,12 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity execicio_5_tb is
+entity exercicio_5_tb is
 
-end execicio_5_tb;
+end exercicio_5_tb;
 
 --a arquitetura
-architecture behavioral of execicio_5_tb is
+architecture behavioral of exercicio_5_tb is
 
 	component exercicio_3
 		generic (

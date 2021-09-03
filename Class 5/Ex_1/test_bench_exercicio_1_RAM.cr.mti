@@ -1,0 +1,19 @@
+{E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 5/Ex_1/Exercicio_1_RAM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 5/Ex_1/Exercicio_1_RAM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Exercicio_1_RAM
+-- Compiling architecture behavioral of Exercicio_1_RAM
+
+} {} {}} {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 5/Ex_1/Exercicio_1_RAM_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 5/Ex_1/Exercicio_1_RAM_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Exercicio_1_RAM_tb
+-- Compiling architecture behavioral of Exercicio_1_RAM_tb
+
+} {} {}}

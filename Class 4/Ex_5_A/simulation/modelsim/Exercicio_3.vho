@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
--- DATE "08/28/2021 23:14:46"
+-- DATE "08/31/2021 21:52:48"
 
 -- 
 -- Device: Altera EP4CE6E22C8 Package TQFP144
@@ -85,7 +85,7 @@ ENTITY 	Exercicio_3 IS
 	input_data : IN std_logic_vector(2 DOWNTO 0);
 	in_address : IN std_logic_vector(2 DOWNTO 0);
 	out_address : IN std_logic_vector(2 DOWNTO 0);
-	output_data : OUT std_logic_vector(2 DOWNTO 0)
+	output_data : BUFFER std_logic_vector(2 DOWNTO 0)
 	);
 END Exercicio_3;
 
