@@ -5,10 +5,10 @@ use ieee.std_logic_unsigned.all;
 
 entity Counter_Up_Down is
     port (
-        clk_in		     : in  std_logic;
-		botao_count      : in  std_logic;
-		botao_load       : in  std_logic;
-		seletor_ud_input : in  std_logic;
+        clk_in		     : in  std_logic; -- PIN_91 -> S4
+		botao_count      : in  std_logic; -- PIN_88 -> S1
+		botao_load       : in  std_logic; -- PIN_89 -> S2
+		seletor_ud_input : in  std_logic; -- PIN_90 -> S3
 		leds_saida       : out std_logic_vector(3 downto 0)
     );
 end Counter_Up_Down;

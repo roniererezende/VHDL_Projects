@@ -1,0 +1,34 @@
+|SN74595
+master_clk_i => srclk_s.CLK
+master_clk_i => rclk_s.CLK
+oe_i => q_o[0]~en.ACLR
+oe_i => q_o[1]~en.ACLR
+oe_i => q_o[2]~en.ACLR
+oe_i => q_o[3]~en.ACLR
+oe_i => q_o[4]~en.ACLR
+oe_i => q_o[5]~en.ACLR
+oe_i => q_o[6]~en.ACLR
+oe_i => q_o[7]~en.ACLR
+rclk_i => srclk_s.DATAIN
+rclk_i => rclk_s.DATAIN
+srclr_i => q_ser_s[0].ACLR
+srclr_i => q_ser_s[1].ACLR
+srclr_i => q_ser_s[2].ACLR
+srclr_i => q_ser_s[3].ACLR
+srclr_i => q_ser_s[4].ACLR
+srclr_i => q_ser_s[5].ACLR
+srclr_i => q_ser_s[6].ACLR
+srclr_i => q_ser_s[7].ACLR
+srclk_i => ~NO_FANOUT~
+ser_i => q_ser_s[0].DATAIN
+q_o[0] << q_o[0].DB_MAX_OUTPUT_PORT_TYPE
+q_o[1] << q_o[1].DB_MAX_OUTPUT_PORT_TYPE
+q_o[2] << q_o[2].DB_MAX_OUTPUT_PORT_TYPE
+q_o[3] << q_o[3].DB_MAX_OUTPUT_PORT_TYPE
+q_o[4] << q_o[4].DB_MAX_OUTPUT_PORT_TYPE
+q_o[5] << q_o[5].DB_MAX_OUTPUT_PORT_TYPE
+q_o[6] << q_o[6].DB_MAX_OUTPUT_PORT_TYPE
+q_o[7] << q_o[7].DB_MAX_OUTPUT_PORT_TYPE
+qh_o << q_ser_s[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,88 @@
+-- Author: Roniere Rezende
+-- File: electronic_gate_tb.vhd
+-- Date: 07/09/21
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity electronic_gate_tb is
+
+end electronic_gate_tb;
+
+--a arquitetura
+architecture behavioral of electronic_gate_tb is
+
+	component electronic_gate
+		port(
+			clock_i	         : in  std_logic; -- Clock
+			reset_i          : in  std_logic; -- Button to reset the state machine
+			abrir            : in  std_logic; -- Button to open the gate
+			fechar           : in  std_logic; -- Button to close the gate
+			sensor_fechado_i : in  std_logic; -- Sensor to inform that the gate is closed
+			sensor_aberto_i  : in  std_logic; -- Sensor to inform that the gate is opened
+			relays           : out std_logic_vector(1 downto 0) -- bit '1' => closing the gate / bit '0' => opening the gate
+	);
+	end component;
+	
+	component sm_home_gate_control_pll is
+		port(
+			areset : in  std_logic := '0';
+			inclk0 : in  std_logic := '0';
+			c0	   : out std_logic;
+			locked : out std_logic 
+		);
+	end component;
+	
+	signal clock_s          : std_logic := '0'; 
+	signal reset_s          : std_logic := '1'; 
+	signal abrir_s          : std_logic := '1'; 
+	signal fechar_s         : std_logic := '0'; 
+	signal sensor_fechado_s : std_logic := '0';
+	signal sensor_aberto_s  : std_logic := '0';	
+	
+	signal c0_s : std_logic := '0';
+		
+	signal relays_s    : std_logic_vector(1 downto 0);
+	
+	constant clk_period : time := 20 ns;
+
+begin
+
+	clock_s <= not clock_s after 10 ns;
+	c0_s <= clock_s;
+	
+	process
+	begin
+		reset_s <= '1';
+		wait for (5 * clk_period);
+		
+		reset_s <= '0';
+		wait for (5 * clk_period);
+		
+		fechar_s <= '0';
+		wait for (5 * clk_period);
+		
+		sensor_fechado_s <= '0';
+		wait for (5 * clk_period);
+		
+		wait;
+	end process;
+
+	dut : electronic_gate
+		port map (
+			cO_s => clock_s,
+			reset_i => reset_s,           
+			abrir => abrir_s,         
+			fechar => fechar_s,        
+			sensor_fechado_i => sensor_fechado_s, 
+			sensor_aberto_i => sensor_aberto_s, 
+			relays => relays_s
+		);
+		
+	PLL : electronic_gate_pll
+		port map (
+			c0_s => c0;
+		);
+		
+end behavioral;
