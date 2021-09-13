@@ -30,38 +30,35 @@ architecture behavioral of RAM_Shared_Addr_And_Data is
 	signal ram_s: ram_t := (others => (others => '0')); -- Clear memory
 
 	signal data : std_logic_vector (7 downto 0);
-	signal address : std_logic_vector (2 downto 0);
+	signal address : std_logic_vector (7 downto 0);
 	
 	begin
 	
-		addr_process : process(clk)
+		addr_process : process(all)
 			begin
 				if rising_edge(clk) then
-					if data_address_sel = '0' then
-						address <= data_address_io(2 downto 0);
+					if data_address_sel = '1' then
+						address <= data_address_io(7 downto 0);
 					end if;
 				end if;
 		end process;
 		
-		data_output_process : process (clk)
+		data_output_process : process (all)
 			begin
 				if rising_edge (clk) then
 					data <= ram_s(to_integer(unsigned(address)));
 				end if;
 		end process;
 		
-		data_input_process : process(clk)
-			begin
-				if rising_edge (clk)  then
-					if rst = '0' and data_address_sel = '0' and en_W_R = '1' then
-						ram_s <= (others => (others => '0'));
-					elsif data_address_sel = '0' and en_W_R = '1' then
-						ram_s(to_integer(unsigned(address))) <= data_address_io;
-					end if;
+		data_in_p : process(all)
+		begin
+			if rising_edge(clk) then
+				if data_address_sel = '0' and en_W_R = '1' then
+					ram_s(to_integer(unsigned(address))) <= data_address_io;
 				end if;
+			end if;
 		end process;
 		
-		data_address_io <= data when data_address_sel = '0' and en_Out = '1' and rst = '1' 
-						else (others => 'Z');
-				
+		data_address_io <= data when data_address_sel = '0' and en_Out = '1' else (others => 'Z');
+					
 end behavioral;

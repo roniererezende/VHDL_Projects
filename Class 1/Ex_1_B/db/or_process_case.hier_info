@@ -1,8 +1,0 @@
-|or_process_case
-input_port[0] => Mux0.IN19
-input_port[1] => Mux0.IN18
-input_port[2] => Mux0.IN17
-input_port[3] => Mux0.IN16
-output_port <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
-
-

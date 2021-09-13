@@ -36,12 +36,12 @@ architecture behavioral of Exercicio_1_RAM_9_2_tb is
 	);
 	end component;
 
-	signal rst_s : std_logic;
-	signal clk_s : std_logic := '0';
-	signal en_Out_s  : std_logic;
-	signal en_W_R_s  : std_logic;
+	signal rst_s              : std_logic;
+	signal clk_s              : std_logic := '0';
+	signal en_Out_s  		  : std_logic;
+	signal en_W_R_s  		  : std_logic;
 	signal data_address_sel_s : std_logic;
-	signal data_address_io_s : std_logic_vector(7 downto 0);
+	signal data_address_io_s  : std_logic_vector(7 downto 0);
 	
 	signal areset_s : std_logic := '0';
 	signal inclk0_s : std_logic;
@@ -53,7 +53,7 @@ architecture behavioral of Exercicio_1_RAM_9_2_tb is
 begin
 
 	--clk  <= not clk after 10 ns;
-	rst_s <= '0', '1' after 10 ns;	
+	rst_s <= '0', '1' after 1 ns;	
 	
 	inclk0_s <= clk_s;
 	
@@ -72,7 +72,7 @@ begin
 		--escreve no endereço 3, data = A4 (10100100)
 		data_address_sel_s <= '1';
 		--data_address_io <= (2 downto 0 => "011", others=>'0');
-		data_address_io_s <= "00000011";
+		data_address_io_s <= x"03";
 		wait until rising_edge(clk_s);
 		data_address_sel_s <= '0';
 		en_W_R_s  <= '1';
@@ -82,7 +82,7 @@ begin
 		--escreve no endereço 4, data = A5 (10100100)
 		data_address_sel_s <= '1';
 		--data_address_io <= (2 downto 0 => "100", others=>'0');
-		data_address_io_s <= "00000100";
+		data_address_io_s <= x"04";
 		wait until rising_edge(clk_s);
 		data_address_sel_s <= '0';
 		en_W_R_s  <= '1';
@@ -95,28 +95,55 @@ begin
 		data_address_sel_s <= '0';
 		data_address_io_s <= (others=>'Z');
 		wait until rising_edge(clk_s);
+		wait until rising_edge(clk_s);
 		
 		--leitura addr 3
 		data_address_sel_s <= '1';
 		--data_address_io <= (2 downto 0 => "011", others=>'0');
-		data_address_io_s <= "00000011";
-		wait until rising_edge(clk_s);
-		en_Out_s  <= '1';
-		--data_address_io <= (others=>'Z');	
-		data_address_sel_s <= '0';
-		--data_address_io <= (others=>'Z');
+		data_address_io_s <= x"03";
 		wait until rising_edge(clk_s);
 		
+		--para garantir, vou zerar todos os controles.
+		en_Out_s  <= '0';
+		en_W_R_s  <= '0';
+		data_address_sel_s <= '0';
+		data_address_io_s <= (others=>'Z');
+		wait until rising_edge(clk_s);
+		wait until rising_edge(clk_s);
+		
+		data_address_sel_s <= '0';
+		en_Out_s  <= '1';
+		wait until rising_edge(clk_s);
+		en_Out_s  <= '0';
+		
+		--para garantir, vou zerar todos os controles.
+		en_Out_s  <= '0';
+		en_W_R_s  <= '0';
+		data_address_sel_s <= '0';
+		data_address_io_s <= (others=>'Z');
+		wait until rising_edge(clk_s);
+		wait until rising_edge(clk_s);
+			
 		--leitura addr 4
 		data_address_sel_s <= '1';
 		--data_address_io <= (2 downto 0 => "100", others=>'0');
-		data_address_io_s <= "00000100";
+		data_address_io_s <= x"04";
 		wait until rising_edge(clk_s);
-		en_Out_s  <= '1';
-		--data_address_io <= (others=>'Z');
+		
+		--para garantir, vou zerar todos os controles.
+		en_Out_s  <= '0';
+		en_W_R_s  <= '0';
 		data_address_sel_s <= '0';
-		--data_address_io <= (others=>'Z');
+		data_address_io_s <= (others=>'Z');
 		wait until rising_edge(clk_s);
+		wait until rising_edge(clk_s);
+		
+		data_address_sel_s <= '0';
+		en_Out_s  <= '1';
+		wait until rising_edge(clk_s);
+		en_Out_s  <= '0';
+		
+		data_address_io_s <= (others=>'Z');
 		
 		wait;
 	end process;

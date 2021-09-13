@@ -1,7 +1,0 @@
-
-State Machine - |electronic_gate|mq_estados_s
-Name mq_estados_s.fechando mq_estados_s.abrindo mq_estados_s.fechado mq_estados_s.aberto 
-mq_estados_s.aberto 0 0 0 0 
-mq_estados_s.fechado 0 0 1 1 
-mq_estados_s.abrindo 0 1 0 1 
-mq_estados_s.fechando 1 0 0 1 

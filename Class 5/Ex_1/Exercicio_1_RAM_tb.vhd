@@ -1,6 +1,6 @@
 library IEEE;
-use IEEE.std_logic_1164.all;
-use IEEE.numeric_std.all;
+	use IEEE.std_logic_1164.all;
+	use IEEE.numeric_std.all;
 
 entity Exercicio_1_RAM_tb is
 
@@ -34,12 +34,12 @@ architecture behavioral of Exercicio_1_RAM_tb is
 	signal data_address_sel : std_logic;
 	signal data_address_io : std_logic_vector(7 downto 0);
 
-	constant clk_period : time := 20 ns;
+	constant clk_period : time := 2 ns;
 
 begin
 
-	clk  <= not clk after 10 ns;
-	rst <= '0', '1' after 10 ns;
+	clk  <= not clk after 1 ns;
+	rst <= '0', '1' after 1 ns;
 	
 	process
 	begin
@@ -56,7 +56,7 @@ begin
 		--escreve no endereço 3, data = A4 (10100100)
 		data_address_sel <= '1';
 		--data_address_io <= (2 downto 0 => "011", others=>'0');
-		data_address_io <= "00000011";
+		data_address_io <= x"03";
 		wait until rising_edge(clk);
 		data_address_sel <= '0';
 		en_W_R  <= '1';
@@ -66,7 +66,7 @@ begin
 		--escreve no endereço 4, data = A5 (10100100)
 		data_address_sel <= '1';
 		--data_address_io <= (2 downto 0 => "100", others=>'0');
-		data_address_io <= "00000100";
+		data_address_io <= x"04";
 		wait until rising_edge(clk);
 		data_address_sel <= '0';
 		en_W_R  <= '1';
@@ -79,28 +79,55 @@ begin
 		data_address_sel <= '0';
 		data_address_io <= (others=>'Z');
 		wait until rising_edge(clk);
+		wait until rising_edge(clk);
 		
 		--leitura addr 3
 		data_address_sel <= '1';
 		--data_address_io <= (2 downto 0 => "011", others=>'0');
-		data_address_io <= "00000011";
-		wait until rising_edge(clk);
-		en_Out  <= '1';
-		--data_address_io <= (others=>'Z');	
-		data_address_sel <= '0';
-		--data_address_io <= (others=>'Z');
+		data_address_io <= x"03";
 		wait until rising_edge(clk);
 		
+		--para garantir, vou zerar todos os controles.
+		en_Out  <= '0';
+		en_W_R  <= '0';
+		data_address_sel <= '0';
+		data_address_io <= (others=>'Z');
+		wait until rising_edge(clk);
+		wait until rising_edge(clk);
+		
+		data_address_sel <= '0';
+		en_Out  <= '1';
+		wait until rising_edge(clk);
+		en_Out  <= '0';
+		
+		--para garantir, vou zerar todos os controles.
+		en_Out  <= '0';
+		en_W_R  <= '0';
+		data_address_sel <= '0';
+		data_address_io <= (others=>'Z');
+		wait until rising_edge(clk);
+		wait until rising_edge(clk);
+			
 		--leitura addr 4
 		data_address_sel <= '1';
 		--data_address_io <= (2 downto 0 => "100", others=>'0');
-		data_address_io <= "00000100";
+		data_address_io <= x"04";
 		wait until rising_edge(clk);
-		en_Out  <= '1';
-		--data_address_io <= (others=>'Z');
+		
+		--para garantir, vou zerar todos os controles.
+		en_Out  <= '0';
+		en_W_R  <= '0';
 		data_address_sel <= '0';
-		--data_address_io <= (others=>'Z');
+		data_address_io <= (others=>'Z');
 		wait until rising_edge(clk);
+		wait until rising_edge(clk);
+		
+		data_address_sel <= '0';
+		en_Out  <= '1';
+		wait until rising_edge(clk);
+		en_Out  <= '0';
+		
+		data_address_io <= (others=>'Z');
 		
 		wait;
 	end process;

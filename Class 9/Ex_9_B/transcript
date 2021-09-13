@@ -1,0 +1,30 @@
+# Compile of Exercicio_1_RAM_9_2.vhd failed with 3 errors.
+# Compile of Exercicio_1_RAM_9_2.vhd was successful.
+# Compile of Exercicio_1_RAM_9_2_tb.vhd was successful.
+vsim -gui work.exercicio_1_ram_9_2_tb
+# vsim -gui work.exercicio_1_ram_9_2_tb 
+# Start time: 19:02:02 on Sep 12,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.exercicio_1_ram_9_2_tb(behavioral)
+# Loading work.exercicio_1_ram_9_2(behavioral)
+# ** Warning: (vsim-3473) Component instance "pll_instantiate : RAM_PLL" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /exercicio_1_ram_9_2_tb/dut File: E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 9/Ex_9_B/Exercicio_1_RAM_9_2.vhd
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /exercicio_1_ram_9_2_tb/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 1  Instance: /exercicio_1_ram_9_2_tb/dut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 1  Instance: /exercicio_1_ram_9_2_tb/dut
+# ** Fatal: (vsim-3734) Index value 4 is out of range 3 downto 0.
+#    Time: 7 ns  Iteration: 1  Process: /exercicio_1_ram_9_2_tb/dut/data_output_process File: E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 9/Ex_9_B/Exercicio_1_RAM_9_2.vhd
+# Fatal error in Process data_output_process at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 9/Ex_9_B/Exercicio_1_RAM_9_2.vhd line 95
+# 
+# HDL call sequence:
+# Stopped at E:/Users/Roniere Resende/Documents/Meus Documentos/Estudo de Tecnologias/Git_Github/My_Projects/VHDL_Projets/Class 9/Ex_9_B/Exercicio_1_RAM_9_2.vhd 95 Process data_output_process
+# 
+# End time: 19:24:50 on Sep 12,2021, Elapsed time: 0:22:48
+# Errors: 1, Warnings: 13

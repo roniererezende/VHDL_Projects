@@ -56,12 +56,12 @@ architecture behavioral of Exercicio_1_RAM_9_2 is
 	end component;
 
 
-	type ram_t is array (3 downto 0) of std_logic_vector(7 downto 0);
+	type ram_t is array (7 downto 0) of std_logic_vector(7 downto 0);
 	
 	signal ram_s: ram_t := (others => (others => '0')); -- Clear memory
 
 	signal data_s : std_logic_vector (7 downto 0);
-	signal address_s : std_logic_vector (2 downto 0);
+	signal address_s : std_logic_vector (7 downto 0);
 	
 	-- PLL Signals
     signal areset_s : std_logic := '0';
@@ -83,8 +83,8 @@ architecture behavioral of Exercicio_1_RAM_9_2 is
 		addr_process : process(all)
 			begin
 				if rising_edge(clk_i) then
-					if data_address_sel_i = '0' then
-						address_s <= data_address_io(2 downto 0);
+					if data_address_sel_i = '1' then
+						address_s <= data_address_io(7 downto 0);
 					end if;
 				end if;
 		end process;
@@ -99,16 +99,13 @@ architecture behavioral of Exercicio_1_RAM_9_2 is
 		data_input_process : process(all)
 			begin
 				if rising_edge (clk_i)  then
-					if rst_i = '0' and data_address_sel_i = '0' and en_W_R_i = '1' then
-						ram_s <= (others => (others => '0'));
-					elsif data_address_sel_i = '0' and en_W_R_i = '1' then
+					if data_address_sel_i = '0' and en_W_R_i = '1' then
 						ram_s(to_integer(unsigned(address_s))) <= data_address_io;
 					end if;
 				end if;
 		end process;
 		
-		data_address_io <= data_s when data_address_sel_i = '0' and en_Out_i = '1' and rst_i = '1' 
-						else (others => 'Z');
+		data_address_io <= data_s when data_address_sel_i = '0' and en_Out_i = '1' else (others => 'Z');
 						
 		pll_instantiate : RAM_PLL port map(
 			areset => areset_s,
